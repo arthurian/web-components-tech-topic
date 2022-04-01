@@ -6,8 +6,9 @@
 
 **Slide deck:**
 
-- [slides.md](slides.md): markdown presentation
-- [slides.html](slides.html): html presentation
+- [slides.md](slides.md): markdown source
+- [slides.html](slides.html): html version
+- [slides.pdf](slides.pdf): pdf version
 
 **Building the slide deck:**
 
@@ -16,6 +17,6 @@ Install the [marp extension](https://marketplace.visualstudio.com/items?itemName
 To build slides for presenting:
 
 ```
-$ npm install --save-dev @marp-team/marp-cli
 $ npx @marp-team/marp-cli@latest slides.md -o slides.html
+$ npx @marp-team/marp-cli@latest slides.md -o slides.pdf
 ```
